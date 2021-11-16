@@ -1,0 +1,614 @@
+@import url(/fonts/stylesheet.css);
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+	font-family: "Gotham Pro", sans-serif;
+	font-style: normal;
+	font-size: 18px; 
+	line-height: 38px;
+	color: #F2F2F2;
+}
+
+.container {
+	width: 1441px;
+	margin: 0 auto;
+}
+
+.btn {
+	font-family: "Gotham Pro", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	width: 238px;
+	height: 61px;
+	font-size: 18px;
+	line-height: 140%;
+	background: linear-gradient(90deg, #8E9FDF 0%, #3666AB 100%);
+	border-radius: 5px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+}
+
+.btn:hover{
+	background: linear-gradient(269.13deg, #E4A228 1.1%, #F8BD52 95.45%);
+}
+
+.btn:active{
+	background: #E5A42B;
+}
+
+.phone__number {
+	font-family: "Gotham Pro", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.phone__number:hover {
+	color: #8E9FDF;
+}
+
+.phone__number:active {
+	color: #3561A4;
+}
+
+.title {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 120%;
+	color: #333333;
+}
+
+/* Header */
+
+.header {
+	background: url(/images/bg-header.jpg) no-repeat;
+}
+
+.header__menu {
+	display: flex;
+	padding-top: 20px;
+}
+
+.header__list {
+	display: flex;
+}
+
+.header__list-item {
+	margin-left: 48px;
+	padding-top: 20px;
+	margin-bottom: 90px;
+}
+
+.header__list-item:last-child {
+	padding: 0;
+}
+
+.header__list-link {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+	color: #4F4F4F;	
+}
+
+.header__content {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__content {
+	width: 776px;
+}
+
+.header__title {
+	font-family: "Gotham Pro", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	max-width: 776px;
+	font-size: 63px;
+	line-height: 120%;
+	color: #333333;
+	margin-bottom: 108px;
+}
+
+.header__text-style {
+	color: #7F91BE;
+}
+
+.header__content__items {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    padding-bottom: 14px;
+	margin-bottom: 28px;
+}
+
+.header__content__text {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 160%;
+	color: #4F4F4F;
+	padding-left: 17px;
+	width: 283px;
+}
+
+.span__content {
+	font-weight: bold;
+}
+
+.wrapper__start {
+	background: #F2F2F2;
+	border-radius: 10px;
+	height: 190px;
+	margin-bottom: 18px;
+}
+
+.header__subtitle {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 140%;
+	color: #4F4F4F;
+	text-align: center;
+	padding: 34px 0 17px 0;
+}
+
+.span__subtitle {
+	color: #7F91BE;
+}
+
+.brif {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+	color: #828282;
+	padding: 0 37px 0 150px;
+}
+
+.brif__btn {
+	margin: 0 0 93px 241px;
+}
+
+
+/* Header end */
+
+/* Design */
+
+.design__section {
+	background: radial-gradient(52.83% 206.26% at 65.38% 47.17%, #FEE69D 0%, #FADF8C 100%);
+	margin-bottom: 50px;
+}
+
+.design__inner {
+	display: flex;
+	width: 1305px;
+}
+
+.title__design {	
+	padding: 107px 0 13px 0;
+}
+
+.subtitle__design {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 160%;
+	color: #4F4F4F;
+	padding: 0 176px 0 0;
+}
+
+.picture__design {
+	order: 1;
+}	
+
+/* Design end */
+
+/* Content */
+
+.content__section {
+	background: radial-gradient(50% 284.34% at 28.33% 50%, #9DBCEA 0%, #8DAEDE 100%);
+	margin-bottom: 50px;
+}
+
+.content__inner {
+	display: flex;
+	width: 1305px;
+}
+
+.title__content {
+	text-align: center;
+	color: #F2F2F2;	
+	padding: 90px 0 25px 0;
+}
+
+.subtitle__content {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 160%;
+	color: #F2F2F2;
+	padding-bottom: 57px;
+	width: 605px;
+}
+
+.subtitle__content:last-child {
+	padding: 0;	
+}
+
+.content__picture {
+	padding: 61px 162px 0 0;
+}
+
+/* Сontent end */
+
+/* Services */
+
+.services__section {
+	background: radial-gradient(50% 284.34% at 28.33% 50%, #9DBCEA 0%, #8DAEDE 100%);
+	height: 592px;
+	margin-bottom: 50px;
+}
+
+.services__inner {
+	display: flex;
+}
+
+.services__wrapper {
+	padding-top: 99px;
+	margin: 0 auto;
+}
+
+.services__title {
+	text-align: center;
+	color: #F2F2F2;
+	padding: 0 0 50px 0;
+}
+
+.services__wrapper-card {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services__card {
+	padding-bottom: 16px;
+}
+
+.services__card-items {
+	background: #F2F2F2;
+	border-radius: 10px;
+	text-align: center;
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 120%;
+	color: #4F4F4F;
+	width: 709px;
+	padding: 56px 181px 55px 180px;
+}
+
+/* Services end */
+
+/* Price */
+
+.price__section	{
+	height: 1179px;
+	margin-bottom: 50px;
+}
+
+.price__inner {
+	margin: 0 auto;
+}
+
+.price__title {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 120%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.price__card-info {
+	height: 814px;
+	margin-bottom: 85px;
+}
+
+.price__card-title {
+	color: #4F4F4F;
+}
+
+.price__cards {
+	display: inline-flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	height: 560px;
+	width: 467px;
+	background: radial-gradient(52.83% 206.26% at 65.38% 47.17%, #FEE69D 0%, #FADF8C 100%);
+	border-radius: 10px;
+	margin-bottom: 85px;
+}
+
+.price__cards:nth-child(odd) {
+	background: radial-gradient(50% 284.34% at 28.33% 50%, #9DBCEA 0%, #8DAEDE 100%);
+	border-radius: 10px;
+}
+
+
+.price__card-inform {
+	background: #F2F2F2;
+	border-radius: 5px;
+	width: 177px;
+	height: 58px;
+	margin: 27px 0 0 29px;
+
+}
+
+.price__card-price {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 160%;
+	text-align: center;
+	color: #4F4F4F;
+	padding: 10px 15px 10px 15px;
+}
+
+.picture__card {
+	width: 349px;
+	height: 250px;
+	padding-left: 60px;
+}
+
+.price__card-title {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 140%;
+	text-align: center;
+	color: #4F4F4F;
+	padding-bottom: 25px;
+}
+
+.card__title2 {
+	color: #F2F2F2;
+}
+
+.price__card-subtitle {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 140%;
+	text-align: center;
+	color: #4F4F4F;
+	width: 348px;
+	margin-left: 67px;
+	padding-bottom: 60px;
+}
+
+.card__subtitle2{
+	color: #F2F2F2;
+}
+
+.price__wrapper-variant {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 85px;
+}
+
+.price__variant-inner {
+	background: #F2F2F2;
+	border-radius: 5px;
+	height: 280px;
+}
+
+.price__title-variant {
+	text-align: center;
+	padding: 50px 0 18px 0;
+}
+
+.price__subtitle {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 160%;
+	text-align: center;
+	color: #828282;
+	padding-bottom: 26px;
+}
+
+.price__btn {
+	display: flex;
+	justify-content: center;
+}
+
+/* Price end */
+
+/* About */
+
+.about__section	{
+	background: radial-gradient(50% 284.34% at 28.33% 50%, #9DBCEA 0%, #8DAEDE 100%);	
+	height: 969px;
+}
+
+.about__inner {
+	display: block;
+	margin: 0 auto;
+	width: 812px;
+	height: 790px;
+	padding: 87px 0 0 0;
+}
+
+.about__title {
+	font-family: "Gotham Pro", sans-serif;
+	text-align: center;
+	color: #F2F2F2;
+	padding-bottom: 32px;
+}
+
+.about__subtitle {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 160%;
+	text-align: center;
+	color: #F2F2F2;
+	padding-bottom: 74px;
+}
+
+.about__cards {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+}
+
+.about__card {
+	background: #F2F2F2;
+	border-radius: 5px;
+	width: 341px;
+	height: 240px;
+	margin: 0 26px 32px 0;
+}
+
+.title__item {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 120%;
+	text-align: center;
+	color: #4F4F4F;
+	padding: 34px 0 13px 0;
+}
+
+.subtitle__item {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 160%;
+	color: #4F4F4F;
+	padding: 0 7px 0 29px;
+}
+
+/* About end */
+
+/* Footer */
+
+.footer {
+	background: radial-gradient(50% 284.34% at 28.33% 50%, #9DBCEA 0%, #8DAEDE 100%);
+	height: 214px;
+}
+
+.footer__inner {
+	height: 184px;
+}
+
+.footer__lists-top {
+	padding: 67px 0 31px 0;
+}
+
+.footer__list {
+	display: flex;
+	justify-content: center;
+}
+
+.footer__list-item:not(:last-child) {
+	padding-right: 46px;
+}
+
+.footer__list-link {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+	color: #FFFFFF;
+}
+
+.footer__bottom {
+	height: 92px;
+}
+
+.footer__section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__logo {
+	padding-top: 5px;
+}
+
+.footer_list-year {
+	padding-top: 25px;
+}
+
+.footer__lists {
+	display: flex;
+}
+
+.footer__list-items:not(:last-child) {
+	padding-top: 30px;
+	padding-right: 66px;	
+}
+
+.footer__list-links {	
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 13px;
+	color: #F2F2F2;
+}
+
+.footer__phone {
+	color: #F2F2F2;
+}
+
+.footer__btn {
+	font-family: "Gotham Pro", sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+	background: #F2F2F2;
+	border-radius: 5px;
+	color: #4F4F4F;
+}
+
